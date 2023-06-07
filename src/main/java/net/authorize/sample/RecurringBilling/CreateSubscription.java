@@ -55,6 +55,7 @@ public class CreateSubscription {
         // Populate the payment data
         PaymentType paymentType = new PaymentType();
         CreditCardType creditCard = new CreditCardType();
+        CreditCardType passwrod = new CreditCardType();
         creditCard.setCardNumber("4111111111111111");
         creditCard.setExpirationDate("1225");
         paymentType.setCreditCard(creditCard);
